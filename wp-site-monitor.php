@@ -4,9 +4,9 @@
  * Plugin URI: https://example.com/wp-site-monitor
  * Description: Ежедневная проверка страниц сайта на наличие noindex и вывод отчетов в админ-панели
  * Version: 1.0.2
- * Author: Your Name
- * License: GPL v2 or later
- * Text Domain: wpsm
+ * Plugin URI: https://github.com/RobertoBennett/wp-site-monitor
+ * Author: Robert Bennett
+ * Text Domain: wp-site-monitor
  */
 
 // Запрещаем прямой доступ
@@ -380,4 +380,5 @@ function wpsm_ajax_compare_scans() {
     ];
     
     wp_send_json_success($comparison);
+
 }
